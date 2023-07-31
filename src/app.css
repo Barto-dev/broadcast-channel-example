@@ -1,0 +1,26 @@
+#app {
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    text-wrap: balance;
+    mix-blend-mode: revert;
+}
+
+.color {
+    display: block;
+    width: 150px;
+    height: 150px;
+}
